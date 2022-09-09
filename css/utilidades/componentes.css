@@ -22,6 +22,11 @@
     max-width: max-content;
 }
 
+.form .botao {
+    border: none;
+    cursor: pointer;
+}
+
 .botao:hover {
     background: linear-gradient(#FFB60D, #E59317);
 }
