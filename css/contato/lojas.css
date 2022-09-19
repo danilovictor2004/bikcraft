@@ -26,6 +26,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 32px 16px;
     padding: 32px;
+    justify-content: space-between;
+}
+
+.lojas-conteudo p {
+    grid-column: 1/-1;
+    justify-items: center;
 }
 
 .lojas-conteudo h3, .lojas-tempo {
@@ -34,9 +40,9 @@
 
 .lojas-dados {
     display: grid;
-    gap: 8px;
     border-left: 2px solid var(--cor-2);
     padding-left: 12px;
+    align-items: center;
 }
 
 .loja-tempo {
